@@ -1871,7 +1871,6 @@
 				3386F0E11F60091E005A2F2C /* Sources */,
 				3386F0E21F60091E005A2F2C /* Frameworks */,
 				3386F0E31F60091E005A2F2C /* Resources */,
-				2E5D6ADDECD59CEEAB1312AC /* [CP] Embed Pods Frameworks */,
 				2EEC8FE12A423E711BB8A852 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1971,21 +1970,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E5D6ADDECD59CEEAB1312AC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APlus/Pods-APlus-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2EEC8FE12A423E711BB8A852 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
@@ -2365,7 +2349,7 @@
 			baseConfigurationReference = 8ACFDD95A22E760A9C734195 /* Pods-APlus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 88WDL2K3TD;
 				ENABLE_BITCODE = NO;
@@ -2377,7 +2361,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.centanet.newprop.panketong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "40f5769e-0795-4c40-9009-081d40d95e71";
+				PROVISIONING_PROFILE = "d07b45c3-6743-450d-aaa1-c350e8f7b0ed";
 				PROVISIONING_PROFILE_SPECIFIER = APlusDev;
 			};
 			name = Debug;

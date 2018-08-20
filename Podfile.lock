@@ -38,11 +38,24 @@ PODS:
   - SDWebImage/Core (4.1.0)
   - UMengSocial (5.0)
   - VPImageCropper (0.0.4)
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.1.0)
+=======
+>>>>>>> Stashed changes
   - YRequestManager (1.1.0):
     - AFNetworking (~> 3.1.0)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
   - BaiduMapKit (= 3.4.2)
   - CustomActionsheet (= 0.1.1)
   - DropdownMenu (= 1.0.0)
@@ -59,9 +72,42 @@ DEPENDENCIES:
   - SDWebImage (= 4.1.0)
   - UMengSocial (= 5.0)
   - VPImageCropper (= 0.0.4)
+<<<<<<< Updated upstream
   - YRequestManager
   - YYModel (= 1.0.4)
 
+=======
+<<<<<<< HEAD
+  - YYModel (= 1.0.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BaiduMapKit
+    - CustomActionsheet
+    - DropdownMenu
+    - FMDB
+    - GrowingIO
+    - iflyMSC
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Reachability
+    - ReactiveObjC
+    - SDWebImage
+    - UMengSocial
+    - VPImageCropper
+    - YYModel
+
+=======
+  - YRequestManager
+  - YYModel (= 1.0.4)
+
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
@@ -81,9 +127,23 @@ SPEC CHECKSUMS:
   SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
   UMengSocial: 48b67179c492a8cf7803fbb0438b8f55432e2fc1
   VPImageCropper: f4895315460bd05fbb22dbee6b063bdd43f25797
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 45eade2eadedd3e24fbeff9c226b1aeceaa4b6d7
+
+COCOAPODS: 1.5.3
+=======
+>>>>>>> Stashed changes
   YRequestManager: 3013e469be40c25eb35988913019f2868b3501b3
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: 34957d6bbdb6501e4befd65b7dcfac0c4ddcb0a9
 
 COCOAPODS: 1.4.0
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
