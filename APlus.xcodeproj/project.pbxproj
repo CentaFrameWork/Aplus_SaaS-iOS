@@ -2371,7 +2371,7 @@
 			baseConfigurationReference = DBB0333C71DF7630F6D9DCB2 /* Pods-APlus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 88WDL2K3TD;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -2382,8 +2382,8 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.centanet.newprop.panketong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "40f5769e-0795-4c40-9009-081d40d95e71";
-				PROVISIONING_PROFILE_SPECIFIER = APlusDev;
+				PROVISIONING_PROFILE = "aedd6e69-0d37-4dc4-925b-436e5ad21233";
+				PROVISIONING_PROFILE_SPECIFIER = APlus;
 			};
 			name = Release;
 		};
