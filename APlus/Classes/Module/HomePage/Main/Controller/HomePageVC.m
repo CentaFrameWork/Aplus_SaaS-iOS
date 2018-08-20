@@ -401,7 +401,7 @@ ResponseDelegate,ClickNewPropDelegate>
     api.length = @"100";
 
 
-    [manager sendRequest:api sucBlock:^(CentaResponse *result)
+    [manager request:api sucBlock:^(CentaResponse *result)
     {
         if(!result.suc)
         {

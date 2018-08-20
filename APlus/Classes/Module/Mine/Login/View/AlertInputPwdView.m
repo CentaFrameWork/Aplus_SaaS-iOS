@@ -83,7 +83,7 @@
     _loginApi = [HKLoginApi new];
     _loginApi.account = account;
     _loginApi.pwd = pwd;
-    [_manager sendRequest:_loginApi];
+    [_manager request:_loginApi];
 }
 
 - (IBAction)okClick:(id)sender

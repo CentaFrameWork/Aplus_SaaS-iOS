@@ -2,7 +2,7 @@ platform:ios,'8.0'
 
 target ‘APlus’ do
 
-pod 'AFNetworking', '3.1.0'
+pod 'YRequestManager'
 pod 'ReactiveObjC', '3.0.0'
 pod 'MBProgressHUD', '1.0.0'
 pod 'YYModel', '1.0.4'

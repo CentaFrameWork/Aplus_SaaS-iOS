@@ -65,4 +65,6 @@
                                     andRightBtn:(UIButton *)rightBtn
                                  andPlaceholder:(NSString *)placeholder;
 
+- (void)respFail:(CentaResponse *)error;
+
 @end

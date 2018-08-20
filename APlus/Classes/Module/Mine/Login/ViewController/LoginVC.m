@@ -255,7 +255,7 @@ UIPickerViewDelegate,doneSelect,LoginViewProtocol>
     _loginApi = [HKLoginApi new];
     _loginApi.account = _hostAccountTextfield.text;
     _loginApi.pwd =_hostPasswordTextfield.text;
-     [_manager sendRequest:_loginApi];
+     [_manager request:_loginApi];
 }
 
 #pragma mark - TextChanged
@@ -399,7 +399,7 @@ UIPickerViewDelegate,doneSelect,LoginViewProtocol>
         _cityCfgApi = [HKCommonApi new];
         _cityCfgApi.configType = @"2";
         _cityCfgApi.length = @"20";
-        [_manager sendRequest:_cityCfgApi];
+        [_manager request:_cityCfgApi];
 
     }
 
@@ -413,7 +413,7 @@ UIPickerViewDelegate,doneSelect,LoginViewProtocol>
         NSString *staff = [CommonMethod getUserdefaultWithKey:UserStaffNumber];
         _userInfoApi = [AgencyUserInfoApi new];
         _userInfoApi.staffNo = @[staff];
-        [_manager sendRequest:_userInfoApi];
+        [_manager request:_userInfoApi];
     }
 
     if ([modelClass isEqual:[DepartmentInfoEntity class]])
@@ -450,7 +450,7 @@ UIPickerViewDelegate,doneSelect,LoginViewProtocol>
             _getPersonalApi = [[GetPersonalApi alloc] init];
             _getPersonalApi.staffNo = staffNo;
             _getPersonalApi.cityCode = userCityCode;
-            [_manager sendRequest:_getPersonalApi];
+            [_manager request:_getPersonalApi];
 
 #warning text
             // 获取虚拟号配置

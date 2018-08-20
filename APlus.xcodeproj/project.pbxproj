@@ -41,15 +41,6 @@
 		5D80319B1F7F86DF0023B185 /* AppDelegate+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D80319A1F7F86DF0023B185 /* AppDelegate+ViewController.m */; };
 		5D80319E1F7F86F30023B185 /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D80319D1F7F86F30023B185 /* AppDelegate+AppService.m */; };
 		5DBF93231F8F5BB8002E94DA /* FMDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBF93221F8F5BB8002E94DA /* FMDBTool.m */; };
-		801C87561F7895E3008A747C /* BaseServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801C87491F7895E3008A747C /* BaseServiceManager.m */; };
-		801C87571F7895E3008A747C /* CentaResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 801C874B1F7895E3008A747C /* CentaResponse.m */; };
-		801C87581F7895E3008A747C /* InterceptorForReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 801C874D1F7895E3008A747C /* InterceptorForReq.m */; };
-		801C87591F7895E3008A747C /* InterceptorForRespFail.m in Sources */ = {isa = PBXBuildFile; fileRef = 801C874F1F7895E3008A747C /* InterceptorForRespFail.m */; };
-		801C875A1F7895E3008A747C /* InterceptorForRespSuc.m in Sources */ = {isa = PBXBuildFile; fileRef = 801C87511F7895E3008A747C /* InterceptorForRespSuc.m */; };
-		801C875B1F7895E3008A747C /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801C87531F7895E3008A747C /* RequestManager.m */; };
-		805986C91F793B8C00F206F2 /* NetworkProtocalInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 805986C41F793B8C00F206F2 /* NetworkProtocalInterceptor.m */; };
-		805986CA1F793B8C00F206F2 /* ReqLogInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 805986C61F793B8C00F206F2 /* ReqLogInterceptor.m */; };
-		805986CB1F793B8C00F206F2 /* RespSucInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 805986C81F793B8C00F206F2 /* RespSucInterceptor.m */; };
 		CF0022841FBBDE4B0076DB37 /* MyClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF00227D1FBBDE4B0076DB37 /* MyClientVC.m */; };
 		CF0022851FBBDE4B0076DB37 /* MyClientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF00227E1FBBDE4B0076DB37 /* MyClientVC.xib */; };
 		CF0022861FBBDE4B0076DB37 /* MyClientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0022821FBBDE4B0076DB37 /* MyClientCell.m */; };
@@ -112,8 +103,6 @@
 		CF487BE11F95F82A00A1B594 /* DDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF487BE01F95F82A00A1B594 /* DDProgressView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CF4CC9171FA1CBA200140BD4 /* APlusBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4CC9121FA1CBA200140BD4 /* APlusBaseApi.m */; };
 		CF4CC9181FA1CBA200140BD4 /* HKBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4CC9141FA1CBA200140BD4 /* HKBaseApi.m */; };
-		CF4CC91E1FA1CCAE00140BD4 /* AbsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4CC91B1FA1CCAE00140BD4 /* AbsApi.m */; };
-		CF4CC91F1FA1CCAE00140BD4 /* BaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4CC91D1FA1CCAE00140BD4 /* BaseApi.m */; };
 		CF4DAC881F9F288700D5EB31 /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DAC861F9F288700D5EB31 /* GridCell.m */; };
 		CF4DAC891F9F288700D5EB31 /* GridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF4DAC871F9F288700D5EB31 /* GridCell.xib */; };
 		CF4DAC8E1F9F28A600D5EB31 /* CustomGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DAC8B1F9F28A600D5EB31 /* CustomGrid.m */; };
@@ -295,24 +284,6 @@
 		5D80319D1F7F86F30023B185 /* AppDelegate+AppService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
 		5DBF93211F8F5BB8002E94DA /* FMDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBTool.h; sourceTree = "<group>"; };
 		5DBF93221F8F5BB8002E94DA /* FMDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBTool.m; sourceTree = "<group>"; };
-		801C87481F7895E3008A747C /* BaseServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseServiceManager.h; path = RequestManager/BaseServiceManager.h; sourceTree = "<group>"; };
-		801C87491F7895E3008A747C /* BaseServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseServiceManager.m; path = RequestManager/BaseServiceManager.m; sourceTree = "<group>"; };
-		801C874A1F7895E3008A747C /* CentaResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CentaResponse.h; path = RequestManager/CentaResponse.h; sourceTree = "<group>"; };
-		801C874B1F7895E3008A747C /* CentaResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CentaResponse.m; path = RequestManager/CentaResponse.m; sourceTree = "<group>"; };
-		801C874C1F7895E3008A747C /* InterceptorForReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterceptorForReq.h; path = RequestManager/InterceptorForReq.h; sourceTree = "<group>"; };
-		801C874D1F7895E3008A747C /* InterceptorForReq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterceptorForReq.m; path = RequestManager/InterceptorForReq.m; sourceTree = "<group>"; };
-		801C874E1F7895E3008A747C /* InterceptorForRespFail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterceptorForRespFail.h; path = RequestManager/InterceptorForRespFail.h; sourceTree = "<group>"; };
-		801C874F1F7895E3008A747C /* InterceptorForRespFail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterceptorForRespFail.m; path = RequestManager/InterceptorForRespFail.m; sourceTree = "<group>"; };
-		801C87501F7895E3008A747C /* InterceptorForRespSuc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterceptorForRespSuc.h; path = RequestManager/InterceptorForRespSuc.h; sourceTree = "<group>"; };
-		801C87511F7895E3008A747C /* InterceptorForRespSuc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterceptorForRespSuc.m; path = RequestManager/InterceptorForRespSuc.m; sourceTree = "<group>"; };
-		801C87521F7895E3008A747C /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RequestManager.h; path = RequestManager/RequestManager.h; sourceTree = "<group>"; };
-		801C87531F7895E3008A747C /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RequestManager.m; path = RequestManager/RequestManager.m; sourceTree = "<group>"; };
-		805986C31F793B8C00F206F2 /* NetworkProtocalInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkProtocalInterceptor.h; path = RequestManager/Interceptor/NetworkProtocalInterceptor.h; sourceTree = "<group>"; };
-		805986C41F793B8C00F206F2 /* NetworkProtocalInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkProtocalInterceptor.m; path = RequestManager/Interceptor/NetworkProtocalInterceptor.m; sourceTree = "<group>"; };
-		805986C51F793B8C00F206F2 /* ReqLogInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReqLogInterceptor.h; path = RequestManager/Interceptor/ReqLogInterceptor.h; sourceTree = "<group>"; };
-		805986C61F793B8C00F206F2 /* ReqLogInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReqLogInterceptor.m; path = RequestManager/Interceptor/ReqLogInterceptor.m; sourceTree = "<group>"; };
-		805986C71F793B8C00F206F2 /* RespSucInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RespSucInterceptor.h; path = RequestManager/Interceptor/RespSucInterceptor.h; sourceTree = "<group>"; };
-		805986C81F793B8C00F206F2 /* RespSucInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RespSucInterceptor.m; path = RequestManager/Interceptor/RespSucInterceptor.m; sourceTree = "<group>"; };
 		8ACFDD95A22E760A9C734195 /* Pods-APlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APlus/Pods-APlus.debug.xcconfig"; sourceTree = "<group>"; };
 		BB1BDA921798885596B0CB57 /* libPods-APlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APlus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF00227C1FBBDE4B0076DB37 /* MyClientVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClientVC.h; sourceTree = "<group>"; };
@@ -435,11 +406,6 @@
 		CF4CC9121FA1CBA200140BD4 /* APlusBaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APlusBaseApi.m; sourceTree = "<group>"; };
 		CF4CC9131FA1CBA200140BD4 /* HKBaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKBaseApi.h; sourceTree = "<group>"; };
 		CF4CC9141FA1CBA200140BD4 /* HKBaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKBaseApi.m; sourceTree = "<group>"; };
-		CF4CC91A1FA1CCAE00140BD4 /* AbsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbsApi.h; sourceTree = "<group>"; };
-		CF4CC91B1FA1CCAE00140BD4 /* AbsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbsApi.m; sourceTree = "<group>"; };
-		CF4CC91C1FA1CCAE00140BD4 /* BaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseApi.h; sourceTree = "<group>"; };
-		CF4CC91D1FA1CCAE00140BD4 /* BaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseApi.m; sourceTree = "<group>"; };
-		CF4CC9201FA1CD1100140BD4 /* ApiDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiDelegate.h; sourceTree = "<group>"; };
 		CF4DAC851F9F288700D5EB31 /* GridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
 		CF4DAC861F9F288700D5EB31 /* GridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCell.m; sourceTree = "<group>"; };
 		CF4DAC871F9F288700D5EB31 /* GridCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridCell.xib; sourceTree = "<group>"; };
@@ -761,7 +727,6 @@
 				CF4F350B1FAC626900EBA7AF /* Error.m */,
 				CF4F350C1FAC626A00EBA7AF /* ServiceDefine.h */,
 				805986BB1F793AC600F206F2 /* Api */,
-				801C87421F7895A7008A747C /* RequestManager */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -1010,31 +975,6 @@
 			path = FMDBTool;
 			sourceTree = "<group>";
 		};
-		801C87421F7895A7008A747C /* RequestManager */ = {
-			isa = PBXGroup;
-			children = (
-				805986C21F793B7500F206F2 /* Interceptor */,
-				CF4CC9201FA1CD1100140BD4 /* ApiDelegate.h */,
-				CF4CC91A1FA1CCAE00140BD4 /* AbsApi.h */,
-				CF4CC91B1FA1CCAE00140BD4 /* AbsApi.m */,
-				CF4CC91C1FA1CCAE00140BD4 /* BaseApi.h */,
-				CF4CC91D1FA1CCAE00140BD4 /* BaseApi.m */,
-				801C87481F7895E3008A747C /* BaseServiceManager.h */,
-				801C87491F7895E3008A747C /* BaseServiceManager.m */,
-				801C87521F7895E3008A747C /* RequestManager.h */,
-				801C87531F7895E3008A747C /* RequestManager.m */,
-				801C874A1F7895E3008A747C /* CentaResponse.h */,
-				801C874B1F7895E3008A747C /* CentaResponse.m */,
-				801C874C1F7895E3008A747C /* InterceptorForReq.h */,
-				801C874D1F7895E3008A747C /* InterceptorForReq.m */,
-				801C874E1F7895E3008A747C /* InterceptorForRespFail.h */,
-				801C874F1F7895E3008A747C /* InterceptorForRespFail.m */,
-				801C87501F7895E3008A747C /* InterceptorForRespSuc.h */,
-				801C87511F7895E3008A747C /* InterceptorForRespSuc.m */,
-			);
-			name = RequestManager;
-			sourceTree = "<group>";
-		};
 		805986BB1F793AC600F206F2 /* Api */ = {
 			isa = PBXGroup;
 			children = (
@@ -1059,19 +999,6 @@
 				CF6774CB1F7CCF2400A72353 /* AdvertApi.m */,
 			);
 			name = Api;
-			sourceTree = "<group>";
-		};
-		805986C21F793B7500F206F2 /* Interceptor */ = {
-			isa = PBXGroup;
-			children = (
-				805986C31F793B8C00F206F2 /* NetworkProtocalInterceptor.h */,
-				805986C41F793B8C00F206F2 /* NetworkProtocalInterceptor.m */,
-				805986C51F793B8C00F206F2 /* ReqLogInterceptor.h */,
-				805986C61F793B8C00F206F2 /* ReqLogInterceptor.m */,
-				805986C71F793B8C00F206F2 /* RespSucInterceptor.h */,
-				805986C81F793B8C00F206F2 /* RespSucInterceptor.m */,
-			);
-			name = Interceptor;
 			sourceTree = "<group>";
 		};
 		CF00227A1FBBDE4B0076DB37 /* Customer */ = {
@@ -2066,13 +1993,43 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-APlus/Pods-APlus-resources.sh",
-				$PODS_CONFIGURATION_BUILD_DIR/CustomActionsheet/CustomActionsheet.bundle,
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CustomActionsheet/CustomActionsheet.bundle",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/UMSocialSDKResourcesNew.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSCommentDetailController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSCommentInputController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSCommentInputControlleriPad.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMShareEditViewController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMShareEditViewControlleriPad.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSLoginViewController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSnsAccountViewController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/SocialSDKXib/UMSShareListController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/en.lproj",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/zh-Hans.lproj",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CustomActionsheet.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResourcesNew.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentDetailController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentInputController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentInputControlleriPad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMShareEditViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMShareEditViewControlleriPad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSLoginViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSnsAccountViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSShareListController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
@@ -2094,7 +2051,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2153,16 +2110,13 @@
 				CF472C531FC7C6AF009CC136 /* PropertyInfoView.m in Sources */,
 				CF4154F71FC6745400F9C685 /* PDOneCell.m in Sources */,
 				5D7600B01FA99BB1005B4F88 /* APFilterEntity.m in Sources */,
-				CF4CC91F1FA1CCAE00140BD4 /* BaseApi.m in Sources */,
 				CFF28EAD1F9DF1BE0084D024 /* ADView.m in Sources */,
 				CFC71CBE1F8E0DAB00F1DD69 /* ApiDomainUtil.m in Sources */,
 				CFF28EAA1F9DF1BE0084D024 /* SearchVC.m in Sources */,
 				CF4DAC8E1F9F28A600D5EB31 /* CustomGrid.m in Sources */,
 				CFC71CD01F8E231700F1DD69 /* NSString+Extension.m in Sources */,
-				805986CA1F793B8C00F206F2 /* ReqLogInterceptor.m in Sources */,
 				5D1D4E461FB1BDFA00BA728D /* APMenuListCell.m in Sources */,
 				CF2B29191F8DFE9A0034CDD6 /* CommonMethod.m in Sources */,
-				801C87561F7895E3008A747C /* BaseServiceManager.m in Sources */,
 				CFE991DC1FA9A25B00FCA096 /* ALActionSheetView.m in Sources */,
 				5D62DD161FA1E82100953075 /* FilterEstateDetailView.m in Sources */,
 				5D419AA71F7CFC11008314F3 /* APAutoRefresh.m in Sources */,
@@ -2196,11 +2150,8 @@
 				CF4433441F8DFB7B0000B1DD /* CheckAppVersonUtil.m in Sources */,
 				CF0D69AE1FB970C700132A3A /* CLLockMainView.m in Sources */,
 				CF4DAC8F1F9F28A600D5EB31 /* EditModuleView.m in Sources */,
-				805986CB1F793B8C00F206F2 /* RespSucInterceptor.m in Sources */,
 				CFE991F91FA9A50500FCA096 /* LoginBasePresenter.m in Sources */,
 				CFF624571FB2DC0800371F85 /* PropertyFilterManager.m in Sources */,
-				801C87571F7895E3008A747C /* CentaResponse.m in Sources */,
-				801C87591F7895E3008A747C /* InterceptorForRespFail.m in Sources */,
 				CFF28EB41F9DF1BE0084D024 /* RankingFirstCell.m in Sources */,
 				CF4F35111FAC626A00EBA7AF /* DataConvertInterceptor.m in Sources */,
 				CF6774DE1F7CCF2400A72353 /* CenterApi.m in Sources */,
@@ -2235,7 +2186,6 @@
 				CFF28EBD1F9DF1BE0084D024 /* EstateListCell.m in Sources */,
 				CFE7DAC61FB5AC630097283F /* APlusBaseEntity.m in Sources */,
 				CF63A3F61FB29E250017D777 /* BaseManager.m in Sources */,
-				CF4CC91E1FA1CCAE00140BD4 /* AbsApi.m in Sources */,
 				CF887DAD1F9F210200F0A0AE /* EditModuleVC.m in Sources */,
 				5D80319E1F7F86F30023B185 /* AppDelegate+AppService.m in Sources */,
 				CFF28EBB1F9DF1BE0084D024 /* EstateListVC.m in Sources */,
@@ -2244,7 +2194,6 @@
 				3386F1091F600ADE005A2F2C /* BaseTabBarController.m in Sources */,
 				CF0D69AB1FB970C700132A3A /* CLLockInfoView.m in Sources */,
 				3386F0EA1F60091E005A2F2C /* main.m in Sources */,
-				801C875A1F7895E3008A747C /* InterceptorForRespSuc.m in Sources */,
 				CF6774E31F7CCF2400A72353 /* PermissionApi.m in Sources */,
 				CF0D69B81FB9816600132A3A /* LockStatusEntity.m in Sources */,
 				CF0D69A61FB970C700132A3A /* CLLockVC.m in Sources */,
@@ -2267,14 +2216,11 @@
 				CF4F35101FAC626A00EBA7AF /* Error.m in Sources */,
 				CFF28EB61F9DF1BE0084D024 /* HeadView.m in Sources */,
 				CF7AADFA1FB2AE6F009FE5E8 /* SearchPropertyManager.m in Sources */,
-				801C875B1F7895E3008A747C /* RequestManager.m in Sources */,
 				CFF28EBA1F9DF1BE0084D024 /* SearchVM.m in Sources */,
 				CFC71CD31F8E24A900F1DD69 /* AbsWebViewFilter.m in Sources */,
 				CFC81B981F73AFCB00EC9A2D /* NSDate+Format.m in Sources */,
 				CF4433451F8DFB7B0000B1DD /* CheckRoomNumUtil.m in Sources */,
 				CFEF05751FC3BDC1004BBD15 /* PropertyDetailVC.m in Sources */,
-				801C87581F7895E3008A747C /* InterceptorForReq.m in Sources */,
-				805986C91F793B8C00F206F2 /* NetworkProtocalInterceptor.m in Sources */,
 				CF472C611FC7F8AB009CC136 /* PropertyInfoCell.m in Sources */,
 				CF0D69AF1FB970C700132A3A /* CLLockView.m in Sources */,
 				CFF28EB91F9DF1BE0084D024 /* HomePageVM.m in Sources */,

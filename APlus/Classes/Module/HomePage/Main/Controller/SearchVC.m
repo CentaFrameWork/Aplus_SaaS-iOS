@@ -142,7 +142,7 @@
     _searchPropApi.topCount = @"10";
     _searchPropApi.estateSelectType = _estateSelectType;
     _searchPropApi.buildName = @"";
-    [_manager sendRequest:_searchPropApi];
+    [_manager request:_searchPropApi];
 }
 
 #pragma mark - <SelectBtnDelegate>

@@ -116,7 +116,7 @@
 
             ManageLockStatusApi *manageLockStatusApi = [[ManageLockStatusApi alloc] init];
             manageLockStatusApi.ManageAccountLockStatusType = ResetAccountLockStatus;
-            [manager sendRequest:manageLockStatusApi];
+            [manager request:manageLockStatusApi];
             return;
         }
 

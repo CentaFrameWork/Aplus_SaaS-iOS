@@ -48,7 +48,7 @@ static CheckVersonUtils *checkVersonUtils;
 //    [checkVersonUtils hasManager];
 
     CheckAppVersonApi *checkAppVersonApi = [[CheckAppVersonApi alloc] init];
-    [checkVersonUtils.manager sendRequest:checkAppVersonApi];
+    [checkVersonUtils.manager request:checkAppVersonApi];
 
 }
 

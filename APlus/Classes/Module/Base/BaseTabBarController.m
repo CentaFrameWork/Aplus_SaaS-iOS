@@ -175,7 +175,7 @@ static BaseTabBarController *customTabBar = nil;
     GetPersonalApi *getPersonalApi = [[GetPersonalApi alloc] init];
     getPersonalApi.staffNo = staffNo;
     getPersonalApi.cityCode = userCityCode;
-    [_manager sendRequest:getPersonalApi];
+    [_manager request:getPersonalApi];
 }
 
 #pragma mark - Notification

@@ -118,7 +118,7 @@
     {
         _systemParamApi = [GetSystemParamApi new];
         _systemParamApi.updateTime = sysParamNewUpdTime;
-        [_manager sendRequest:_systemParamApi];
+        [_manager request:_systemParamApi];
 
     }
     else
@@ -135,7 +135,7 @@
     {
         ManageLockStatusApi *manageLockStatusApi = [[ManageLockStatusApi alloc] init];
         manageLockStatusApi.ManageAccountLockStatusType = GetAccountLockStatus;
-        [_manager sendRequest:manageLockStatusApi];
+        [_manager request:manageLockStatusApi];
     }
 }
 
@@ -207,7 +207,7 @@
             NSString *sysParamNewUpdTime = [AgencySysParamUtil getSysParamNewUpdTime];
             _systemParamApi = [GetSystemParamApi new];
             _systemParamApi.updateTime = sysParamNewUpdTime;
-            [_manager sendRequest:_systemParamApi];
+            [_manager request:_systemParamApi];
         }
     }
 }

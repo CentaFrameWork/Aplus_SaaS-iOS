@@ -33,7 +33,7 @@ static HomeConfigUtils *homeConfigUtils;
     [homeConfigUtils hasManager];
     
     HKCommonApi *cityConfigApi = [[HKCommonApi alloc] init];
-    [self.manager sendRequest:cityConfigApi];
+    [self.manager request:cityConfigApi];
     
 }
 
